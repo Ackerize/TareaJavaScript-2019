@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -371,7 +371,7 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
+  margin: 2rem auto 3rem;
   font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
   font-weight: 700;
   line-height: 1.1;
@@ -8857,6 +8857,7 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 576px) {
